@@ -11,10 +11,10 @@ const temp = arr.forEach((k) => k);
 //   console.log(value);
 // });
 
-// const arr2 = [{ name: "Samir" }, { name: "Adi" }, { name: "nitish" }];
-// const nameArr = arr2.map((value) => value.name.toUpperCase());
+const arr2 = [{ name: "Samir" }, { name: "Adi" }, { name: "nitish" }];
+const nameArr = arr2.map((value) => value.name.toUpperCase());
 
-// console.log(nameArr);
+console.log(nameArr);
 
 const abc = arr.filter((v, i) => v % 2 === 1);
 // const [first, second, third] = arr;
