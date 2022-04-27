@@ -38,7 +38,7 @@ const bigArray = [
 ];
 // console.log(bigArray.map(({ name, age }) => name));
 // bigArray.map(({ name, age }) => console.log(name + "'s age is " + age));
-// tenplate literals
+// tenplate literals --> `` & ${} for printing strings
 
 // bigArray.map(({ name, age }) => console.log(`${name}'s age is ${age}`));
 
@@ -48,4 +48,11 @@ const nameObj = bigArray.map(({ name, age }) => {
   return { name, age: age };
 });
 
-console.log(nameObj);
+// console.log(nameObj);
+
+const objectData = {};
+objectData.title = "aaaaa";
+objectData.salary = "bbb";
+console.log(objectData);
+objectData.salary = 5000;
+console.log(objectData);
