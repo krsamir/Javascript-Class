@@ -11,5 +11,52 @@
     background-color: greenyellow;
 }
 #userinput, #enter{
-    padding: 5px;
+    padding: 15px;
 }
+
+.bigBox{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.smallBox{
+    background-color: yellowgreen;
+    margin: 5px;
+    text-align: center;
+    width: 50px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* 
+BOX MODEL---->
+				The css box model is esentially a box that wraps every html element into some associates such as 
+					1-->Content	-	the content of the box,where text and images appear;
+					2-->Padding	-	clears an area around the content.The padding is supposedly transperent.
+					3-->Border	-	A border that goes around the padding and content.
+					4-->Margin	-	Clears an area outside the border.the margin is transparent.
+				---------------------------------------------------------------------------------------------------------
+				Demonstration of the box model:
+					.boxmodel{
+ 							 width: 300px;
+ 							 border: 15px solid green;
+ 							 padding: 50px;
+ 							 margin: 20px;
+						} 
+				----------------------------------------------------------------------------------------------------------
+				
+
+
+
+
+*/
