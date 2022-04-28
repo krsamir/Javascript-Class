@@ -1,0 +1,15 @@
+.styletag{
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.pending{
+    background-color: green;
+}
+
+.completed{
+    background-color: greenyellow;
+}
+#userinput, #enter{
+    padding: 5px;
+}
